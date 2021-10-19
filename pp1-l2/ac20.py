@@ -3,3 +3,4 @@ weight=float(input("Enter your height in kg: "))
 bmi=weight/(height**2)
 print("BMI index: ",bmi)
 
+
