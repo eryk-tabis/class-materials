@@ -7,3 +7,9 @@ def fractional(n):
 
 x = 10
 print(f"{x}! = {fractional(x)}")
+
+def fractional(n):
+    sum=1
+    for i in range(1,n+1):
+        sum = sum*i
+    return sum

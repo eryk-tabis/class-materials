@@ -8,6 +8,6 @@ while x < n:
             break
         y += 1
     else:
-        print(z)
+        print(z, end=" ")
         x += 1
     z += 1
