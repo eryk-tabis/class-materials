@@ -10,4 +10,4 @@ with open("students.json", "r") as file, open("limited.json", "w") as file2:
             "student id": data[i]["studentID"],
         }
         all_data.append(data2)
-    json.dump(all_data,file2, ensure_ascii=True, indent=4)
+    json.dump(all_data,file2, ensure_ascii=False, indent=4)
